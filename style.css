@@ -1,0 +1,150 @@
+.div {
+    background: aquamarine;
+    height: 100vh;
+    width: 425px;
+    margin: auto;
+}
+
+.title {
+    font-size: 25px;
+    font-family: "Metal Mania", cursive;
+    padding-top: 18px;
+    margin-left: 70px;
+}
+
+.chat-container {
+    background-color: aquamarine;
+    width: 425px;
+    height: 80vh;
+    margin: auto;
+    border-radius: 20px;
+    overflow-y: auto;
+    padding-bottom: 80px;
+}
+
+.user-input {
+    background-color: white;
+    width: 255px;
+    height: 35px;
+    padding-top: 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.icon {
+    background-color: white;
+    text-align: center;
+    padding-top: 1px;
+    margin-top: 20px;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.input {
+    border: none;
+    outline: none;
+    resize: none;
+    overflow-y: auto;
+    max-height: 150px;
+    font-size: 16px;
+}
+
+.User-chat-style {
+    border-radius: 10px 10px 0px 10px;
+    min-width: 150px;
+    max-width: 280px;
+    min-height: 50px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 5px;
+    margin: 10px;
+    margin-left: auto;
+}
+
+.agent-response-style {
+    border-radius: 10px 10px 10px 0px;
+    min-width: 150px;
+    max-width: 280px;
+    min-height: 50px;
+    max-height: 100px;
+    overflow-y: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.logo-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.header {
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 5px;
+    width: 425px;
+    margin: auto;
+}
+
+.causion {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+/* image input */
+
+#previewContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.preview-wrapper {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+
+.preview-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* ❌ Cross button */
+
+.remove-btn {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-container {
+    margin: auto;
+}
